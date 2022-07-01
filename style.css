@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&family=Varela+Round&display=swap');
+
+body {
+    background-color: rgb(49, 107, 88);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+/* nav */
+nav {
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height: 7vh;
+    background-color: #1F2833;
+    color: white;
+}
+
+nav ul li {
+    padding: 0 3vh;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.brand img {
+    width: 3vw;
+    padding: 1vh;
+}
+
+
+/* .contanier */
+.contanier {
+    min-height: 75vh;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    margin: 10vh auto;
+    width: 70%;
+    border-radius: 3vh;
+    padding: 4vh;
+    background-image: url("items//background.jpg");
+    background-size: contain;
+    background-image:fixed;
+}
+
+.songitems {
+    background-color: rgba(61, 73, 90, 0.927);
+
+    border-radius: 2vh;
+    color: white;
+    height: 7vh;
+    display: flex;
+    width: 50vh;
+    margin: 5vh 0 0 0;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid rgb(49, 96, 76);
+    
+}
+
+.songitems img {
+    border-radius: 5vh;
+    cursor: pointer;
+}
+
+ 
+.songitemplay{
+    cursor: pointer;
+}
+/* .songitems img .i{
+ background-color: white;
+ width: 3vh;
+} */
+
+/* bottombar */
+.bottom {
+    background-color: #839a9c;
+    color: white;
+    position: sticky;
+    height: 14vh;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#progressbar {
+    width: 50vw;
+    text-align: center;
+    cursor: pointer;
+}
+
+.icon {
+    margin: 2vh 4vh;
+
+}
+
+.icon i {
+    cursor: pointer;
+}
+
+.icone1 img {
+    width: 4vh;
+    padding: 0 5vh;
+}
+.icone2 img {
+    width: 4vh;
+    padding: 0 5vh;
+}
+.icone3 img {
+    width: 4vh;
+    padding: 0 5vh;
+}
+
+.songinfo {
+    position: absolute;
+    left: 0;
+    font-family: 'Varela Round', sans-serif;
+
+}
+
+.songinfo img {
+    width: 13vh;
+}
+
+.songinfo span {
+    position: absolute;
+    top: 0;
+}
