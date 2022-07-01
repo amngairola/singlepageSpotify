@@ -74,6 +74,11 @@ nav ul li {
     border-bottom: 2px solid rgb(49, 96, 76);
     
 }
+.song div:hover {
+    max-width: 29vh;
+    background-color: #1F2833;
+     
+}
 
 .songitems img {
     border-radius: 5vh;
