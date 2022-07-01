@@ -1,0 +1,25 @@
+@media only screen and  (max-width: 480px){ 
+    nav ul{
+        width: auto;
+    }
+    nav ul li {
+        padding: 3vh;
+    }
+    nav ul {
+        margin-left: 1vh;
+    min-width: 27vh;
+    border-radius: 2vh;
+    }
+    .songitems {
+        max-width: 27vh;
+         
+    }
+    #progressbar{
+         margin-left: 9vh;
+    }
+    .icon{
+        
+         padding-left: 4.2vh;
+    }
+
+}
